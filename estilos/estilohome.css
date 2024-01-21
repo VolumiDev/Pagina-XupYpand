@@ -1,0 +1,60 @@
+@font-face {
+    font-family: GOW;
+    src: url(GODOFWAR.TTF);
+}
+
+body{
+    padding-top: 50px;
+}
+
+
+.banner{
+    position: relative;
+}
+
+#imgbanner{
+    height: 500px;
+    width: 100%;
+    border-radius: 60px;
+}
+
+.textbanner{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+}
+
+
+h1{
+    font-family: GOW;
+    font-size: 50px;
+}
+
+#logo{
+    width: 40px;
+    margin-left: 20px;
+}
+
+nav{
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#lista{
+    position: relative;
+}
+
+#sublista{
+    position: absolute;
+    left: 70px;
+}
+
+.carousel{
+    margin: auto;
+}

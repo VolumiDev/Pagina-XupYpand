@@ -1,0 +1,28 @@
+#logo{
+    width: 40px;
+    margin-left: 20px;
+}
+nav{
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#lista{
+    position: relative;
+}
+
+#sublista{
+    position: absolute;
+    left: 70px;
+}
+
+#barranav{
+
+    width: 60%;
+}
