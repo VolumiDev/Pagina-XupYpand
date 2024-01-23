@@ -4,7 +4,12 @@
 }
 
 body{
-    padding-top: 50px;
+    padding: 40px;
+    background-color: darkslategray;   
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-mazmorra-pixel-art-juegos-8-bits_334978-2389.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -13,7 +18,7 @@ body{
 }
 
 #imgbanner{
-    height: 500px;
+    height: 50%;
     width: 100%;
     border-radius: 60px;
 }
@@ -31,28 +36,7 @@ h1{
 }
 
 #logo{
-    width: 40px;
-    margin-left: 20px;
-}
-
-nav{
-    margin-top: 20px;
-    border-radius: 20px;
-}
-
-
-.nav-item a{
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-}
-#lista{
-    position: relative;
-}
-
-#sublista{
-    position: absolute;
-    left: 70px;
+    border-radius: 40px;
 }
 
 .carousel{

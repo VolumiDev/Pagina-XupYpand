@@ -14,9 +14,9 @@
     max-width: 900px;
     padding:0px;
 }
-.div-general{
+/* .div-general{
     width: 10%;
-}
+} */
 
 [class^=col]{
     float: left;
@@ -36,44 +36,11 @@ img:hover{
     box-shadow: 10px 10px #3b3636cb;
 }
 
-#barranav{
+/* #barranav{
     margin-left: auto;
     margin-right: auto;
 }
+ */
 
 
-
-/* .menu a{
-    display: block;
-    text-decoration: wavy;
-    font-size: 20px;
-    text-align: center;
-}
-.botonmenu{   
-    position: relative;
-    margin: auto;
-    margin-top: 20px;
-}
-.textodentro{
-    position: absolute;
-    width: 5vw;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(179, 240, 38);
-    font-family: Super;
-    text-shadow: 3px 3px black;
-
-}
-
-.botonmenu img{
-    opacity: 0.75 ;
-}
-.botonmenu img:hover{
-    opacity: 1;
-} */
 

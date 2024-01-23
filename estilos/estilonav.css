@@ -23,6 +23,7 @@ nav{
 }
 
 #barranav{
-
-    width: 60%;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
 }

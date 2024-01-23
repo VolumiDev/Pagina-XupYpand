@@ -8,14 +8,20 @@
     <title>Home Xup Ypan</title>
     <!-- css -->
     <link rel="stylesheet" href="estilos/estilohome.css">
+    <link rel="stylesheet" href="estilos/estilonav.css">
+    <link rel="stylesheet" href="estilos/comun.css">
     <!-- css para el carrousel -->
     <link rel="stylesheet" href="estilos/stilocarrouselhome.css">
 </head>
 <body>
     <!-- ESTA PARTE ES LA PARTE DEL TITULO -->
     <div class="container">                 
-        <div class="row banner">        
-            <img id="imgbanner" src="img/Banner Xup Ypand.JPG" alt="">   
+        <div class="row banner justify-content-md-center">        
+            <!-- <picture>
+                <source media="(min-width:576px)" srcset="img/Banner Xup Ypand  - maximo500px.png">
+                <img id="imgbanner" src="img/Banner Xup Ypand  - 992px.jpg" alt="">
+            </picture> -->
+                <img id="imgbanner" src="img/Banner Xup Ypand  - 992px.JPG" alt=""> 
             <div class="textbanner">
                 <h1>XUP YPAND</h1>
             </div>
@@ -25,20 +31,20 @@
     <nav class="navbar navbar-expand-md navbar-secondary bg-secondary" id="barranav">
 
         <div class="container">   
-
+    
             <a href="/" class="navbar-brand ">
                 <img id="logo" src="img/Xup Ypand.png" alt="">
             </a>
             <botton class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu">
                 <span class="navbar-toggler-icon"></span>
             </botton>
-
+    
             <div class="collapse navbar-collapse" id="mi-menu">
-
-
+    
+    
                 <ul class="navbar-nav" id="lista">
-
-                    <li class="nav-item"> <a href="" class="nav-link">HOME</a></li>
+    
+                    <li class="nav-item"> <a href="home.html" class="nav-link">HOME</a></li>
                     <li class="nav-item">
                         
                         <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">IMAGENES</a>
@@ -50,21 +56,22 @@
                         
                     </li>
                     <li class="nav-item"> <a href="" class="nav-link">CONTACTO</a></li>
-
+    
                 </ul>
-
-
-
+    
+    
+    
             </div>
-
+    
             
         </div>
     </nav>
+    
 <!-- AQUI PONEMOS UN CAROUSEL SACADO DE CODEPEN Y MODIFICADO UN POCO LOS ESTILOS PARA QUE SE AJUSTEN A LO QUE NECESITABA -->
     <div class="carousel">
 
         <div class="scroller" data-speed="fast">
-          <ul class="tag-list scroller__inner">
+        <ul class="tag-list scroller__inner">
             <li><span class="inner-text">VIVE LA AVENTURA DE TU VIDA</span></li>
             <li><span class="inner-text">JUEGA CON AMIGOS</span></li>
             <li><span class="inner-text">EXPLORA TODO UN MUNDO DE FANTASIA</span></li>
