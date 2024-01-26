@@ -42,3 +42,33 @@ h1{
 .carousel{
     margin: auto;
 }
+
+.media{
+    margin-top: 20px;
+}
+label{
+    display: block;
+    font-family: GOW;
+    color: white;
+    font-size: 25px ;
+}
+
+.audio{
+    margin-top: 40px;
+text-align: center;}
+
+.video-responsive {
+    margin-top: 50px;
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 80%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}

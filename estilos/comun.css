@@ -2,3 +2,33 @@ body{
     margin: 0px;
     background-color: darkslategray;
 }
+
+footer{
+    background-color: black;
+    padding: 20px;
+}
+
+.titulo-footer{
+    font-family: GOW;
+}
+#text-acerca{
+    font-family: GOW;
+}
+
+.redes a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-family: GOW;
+}
+#blooger{
+    width: 40px;
+    height: 40px;
+
+}
+ footer *{
+    color: white;
+ }
+ .text-footer{
+    font-family: GOW;
+ }
