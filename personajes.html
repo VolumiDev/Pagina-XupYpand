@@ -14,30 +14,35 @@
 </head>
 <body class="body">
   <!-- AQUI EMPIEZA EL NAV QUE ES COMUN PARA TODAS LAS PAGINAS -->
-  <nav class="navbar navbar-expand-md navbar-secondary bg-secondary" id="barranav">
-    <div class="container">   
+  <nav class="sticky-top navbar navbar-expand-md navbar-secondary bg-secondary" id="barranav">
+    <div class="container">       
         <a href="/" class="navbar-brand ">
             <img id="logo" src="img/Xup Ypand.png" alt="">
         </a>
         <botton class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu">
             <span class="navbar-toggler-icon"></span>
-        </botton>
-        <div class="collapse navbar-collapse" id="mi-menu">
-            <ul class="navbar-nav" id="lista">
+        </botton>    
+        <div class="collapse navbar-collapse" id="mi-menu">        
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 " id="lista">    
                 <li class="nav-item"> <a href="home.html" class="nav-link">HOME</a></li>
-                <li class="nav-item">                    
+                <li class="nav-item">                        
                     <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">IMAGENES</a>
                     <ul class="dropdown-menu" id="sublista">
                         <li><a href="personajes.html" class="dropdown-item">Personajes</a></li>
                         <li><a href="" class="dropdown-item">Jefes</a></li>
                         <li><a href="" class="dropdown-item">Miniaturas</a></li>
-                    </ul>                        
+                    </ul>                            
                 </li>
-                <li class="nav-item"> <a href="" class="nav-link">CONTACTO</a></li>
+                <li class="nav-item"> <a href="" class="nav-link">CONTACTO</a></li>    
             </ul>
-        </div>
+            <form id="buscar" class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-dark " type="submit">Search</button>
+              </form>  
+        </div>  
+               
     </div>
-</nav>
+</nav>    
 <!-- AQUI EMPIEZAN LAS IMAGENES DE LOS PERSONAJES -->
   <div class="container text-center" id="div-general">
     <div class="row menu"> 

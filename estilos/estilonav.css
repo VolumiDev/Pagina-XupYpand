@@ -19,6 +19,9 @@ nav{
     font-weight: bolder;
     font-family: GOW;
 }
+.nav-item >a:hover{
+    text-shadow: 2px 2px red;
+}
 #lista{
     position: relative;
 }

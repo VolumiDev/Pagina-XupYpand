@@ -28,7 +28,7 @@
         </div>
     </div>
     <!-- AQUI EMPIEZA EL MENU DESPLEGABLE -->
-    <nav class="navbar navbar-expand-md navbar-secondary bg-secondary" id="barranav">
+    <nav class="sticky-top navbar navbar-expand-md navbar-secondary bg-secondary" id="barranav">
         <div class="container">       
             <a href="/" class="navbar-brand ">
                 <img id="logo" src="img/Xup Ypand.png" alt="">
@@ -37,7 +37,7 @@
                 <span class="navbar-toggler-icon"></span>
             </botton>    
             <div class="collapse navbar-collapse" id="mi-menu">        
-                <ul class="navbar-nav" id="lista">    
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 " id="lista">    
                     <li class="nav-item"> <a href="home.html" class="nav-link">HOME</a></li>
                     <li class="nav-item">                        
                         <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">IMAGENES</a>
@@ -48,8 +48,13 @@
                         </ul>                            
                     </li>
                     <li class="nav-item"> <a href="" class="nav-link">CONTACTO</a></li>    
-                </ul>    
-            </div>           
+                </ul>
+                <form id="buscar" class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-dark " type="submit">Search</button>
+                  </form>  
+            </div>  
+                   
         </div>
     </nav>    
 <!-- AQUI PONEMOS UN CAROUSEL SACADO DE CODEPEN Y MODIFICADO UN POCO LOS ESTILOS PARA QUE SE AJUSTEN A LO QUE NECESITABA -->
@@ -76,23 +81,23 @@
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4">
                 <div class="audio">
                     <label for="">taberna</label>
-                    <audio id="taberna" src="Aylex - Fighter (freetouse.com).mp3" type="adio/mpeg" controls="">Taberna</audio>
+                    <audio id="taberna" src="audio/342_Tavern_Celebration.mp3" type="adio/mpeg" controls="">Taberna</audio>
                 </div>    
                 <div class="audio">
                     <label for="">camino</label>
-                    <audio id="taberna" src="Aylex - Fighter (freetouse.com).mp3" type="adio/mpeg" controls="">Taberna</audio>
+                    <audio id="taberna" src="audio/199_Sun_Dappled_Trail.mp3" type="adio/mpeg" controls="">Taberna</audio>
                 </div>    
                 <div class="audio">
                     <label for="">Combate</label>
-                    <audio id="taberna" src="Aylex - Fighter (freetouse.com).mp3" type="adio/mpeg" controls="">Taberna</audio>
+                    <audio id="taberna" src="audio/360_Pit_Fighter.mp3" type="adio/mpeg" controls="">Taberna</audio>
                 </div>    
                 <div class="audio">
                     <label for="">Acertijo</label>
-                    <audio id="taberna" src="Aylex - Fighter (freetouse.com).mp3" type="adio/mpeg" controls="">Taberna</audio>
+                    <audio id="taberna" src="audio/349_Puzzle_Dungeon.mp3" type="adio/mpeg" controls="">Taberna</audio>
                 </div>    
                 <div class="audio">
                     <label for="">Victoria</label>
-                    <audio id="taberna" src="Aylex - Fighter (freetouse.com).mp3" type="adio/mpeg" controls="">Taberna</audio>
+                    <audio id="taberna" src="audio/397_Homecoming.mp3" type="adio/mpeg" controls="">Taberna</audio>
                 </div>       
             </div>
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-8 video-responsive">
