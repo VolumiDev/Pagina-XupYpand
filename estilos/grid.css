@@ -1,28 +1,15 @@
-@font-face{
-    font-family: Super;
-    src: url(GODOFWAR.TTF);
-}
-.body{
-    padding: 40px;
-    background-color: darkslategray;   
-    background-image: url(https://img.freepik.com/fotos-premium/fondo-mazmorra-pixel-art-juegos-8-bits_334978-2389.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 .container{
     max-width: 900px;
     padding:0px;
 }
-/* .div-general{
-    width: 10%;
-} */
+
 
 [class^=col]{
     float: left;
     padding: 10px;
     width: 100%;
-    /* border: 2px black solid; quitar los bordes */
+    
 }
 
 div img{
@@ -36,11 +23,7 @@ img:hover{
     box-shadow: 10px 10px #3b3636cb;
 }
 
-/* #barranav{
-    margin-left: auto;
-    margin-right: auto;
-}
- */
+
 
 
 

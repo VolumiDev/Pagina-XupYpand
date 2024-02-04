@@ -7,7 +7,6 @@
    <link rel="icon" type="image/x-icon" href="img/Xup Ypand.jpg">
     <!-- CSS -->
     <link rel="stylesheet" href="estilos/estilonav.css">
-    <link rel="stylesheet" href="estilos/estilospersonajes.css">
     <link rel="stylesheet" href="estilos/grid.css"> 
     <link rel="stylesheet" href="estilos/comun.css">
     <link rel="stylesheet" href="estilos/jefes.css">
@@ -15,10 +14,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jefes</title>
 </head>
-<body id="arriba" class="body">
+<body id="arriba">
     <!-- AQUI EMPIEZA EL NAV QUE ES COMUN PARA TODAS LAS PAGINAS -->
     <nav class="sticky-top navbar navbar-expand-md navbar-secondary bg-secondary" id="barranav">
-      <div class="container">       
+      <div class="container-fluid">       
           <a href="#arriba" class="navbar-brand ">
               <img id="logo" src="img/Xup Ypand.png" alt="">
           </a>
@@ -33,7 +32,7 @@
                       <ul class="dropdown-menu" id="sublista">
                           <li><a href="personajes.html" class="dropdown-item">Personajes</a></li>
                           <li><a href="jefes.html" class="dropdown-item">Jefes</a></li>
-                          <li><a href="" class="dropdown-item">Miniaturas</a></li>
+                          <li><a href="minis.html" class="dropdown-item">Miniaturas</a></li>
                       </ul>                            
                   </li>
                   <li class="nav-item"> <a href="" class="nav-link">CONTACTO</a></li>    
@@ -46,31 +45,136 @@
       </div>
   </nav> 
 
-  <!-- EMPIEZAN LAS PRUEBAS POR AQUI -->
   
   <div class="container">
-    <div class="row text-center">
-        <div class="col-2 aboleth popup"  onclick="myFunction()">  
-            <p class="popuptext" id="myPopup"><h3>Aboleth</h3>Aboleth son peces-como los anfibios de inmenso tamaño, 
-                 menudo llegan a veinte pies de largo y un peso de hasta 6.500 libras, 
-                 a pesar de que siguen creciendo a medida que envejecen y algunos ejemplares antiguos 
-                 fantásticamente podrían llegar a unos doce metros de longitud.</p>
+    <div class="row text-center">                        
+        <div class="col aboleth" data-bs-toggle="modal" data-bs-target="#staticBackdrop">  
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">ABOLETH</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p> Esta alargada criatura pisciforme dotada de tres musculosos tentáculos y una 
+                            formidable cola es el señor indiscutible de las aguas más tenebrosas desde épocas 
+                            pretéritas. Su cuerpo escamoso exuda un negro icor que contamina el agua, mientras que 
+                            sus crueles ojos destellan rojos, especialmente cuando usa su poderosa mente para subyugar 
+                            a cuanto humanoide encuentre. Lo último que ven sus presas al dirigirse al agua con una boba 
+                            sonrisa son sus fauces, 
+                            dotada de hilera tras hilera de largos y puntiagudos dientes. </p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
                  <img src="img/aboleth.jpg" alt="aboleth">
         </div>
-        <div class="col-2 dragonazul">
+        <div class="col-2 dragonazul" data-bs-toggle="modal" data-bs-target="#dragon">
+            <div class="modal fade" id="dragon" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">DRAGON ANCIANO AZUL</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Viven en zonas desérticas y se caracterizan por su color azul y 
+                            su carácter vanidoso y territorial. Poseen unas grandes orejas y un gran cuerno, 
+                            estando adaptados a excavar en la arena. 
+                            Su arma de aliento es una potente descarga eléctrica. </p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
             <img src="img/45b14aee-47a6-4f66-bf44-17a727195b0c.webp" alt="Dragon azul">
         </div>
-        <div class="col-2">
+        <div class="col-2"  data-bs-toggle="modal" data-bs-target="#gigante">
+            <div class="modal fade" id="gigante" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">GIGANTE DE FUEGO</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p> Este hecho de mismisimo fuego viste una armadura de placas 
+                            forjada en hierro negro que va a juego con su espadón. 
+                            Su rostro es tiránico y al caminar lo hace como si fuera señor de todo a su alrededor. </p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
             <img src="img/gigante de fuego.webp" alt="Gigante de Fuego">
         </div>
-        <div class="col-2">
+        <div class="col-2" data-bs-toggle="modal" data-bs-target="#liche">
+            <div class="modal fade" id="liche" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">LICHE</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Restos putrefactos de un poderoso mago que abrazó la no muerte para evitar abandonar 
+                            este mundo y se convirtió en un muerto viviente hambriento de conocimiento mágico. 
+                            El toque del liche es pernicioso, pues paraliza e incluso necrosa la carne. 
+                            Para proteger su existencia, el liche esconde su alma en una filacteria, que, alimentada con almas,
+                             asegura su retorno en caso de que lo destruyan.
+                             Acabar con la filacteria acabará con el liche.</p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
             <img src="img/Nigromante.webp" alt="Nigromante">
         </div>
     </div>
   </div>
   
 
-
+  <!-- POR AQUI TENEMOS EL FOOTER -->
+  <footer class="container text-center">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-3 redes">
+            <p class="titulo-footer">Redes:</p><hr>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FJavierdePradoA">     
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                </svg>
+                TWITTER
+            </a> 
+            <a href="https://ssooasir.blogspot.com/">
+                <img id="blooger" src="img/bloogel.jpg" alt="blogger">
+                BLOOGER
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 acerca">
+            <p class="titulo-footer">About Us:</p> <hr>
+            <p class="text-footer">
+                Somos un grupo de amigos que entrenamos juntos. Todos somos un poco frikis y nos encante el mundo de fantasia y el rol.
+                Un dia decidimos aventurarnos a jugar una partida y ahí fue donde todo comenzo.
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 derechos">
+            <p class="titulo-footer">Derechos:</p> <hr>
+            <span>&copy</span><span class="text-footer"> Diego Martín García</span>
+            <p class="text-footer">Lenguaje de marcas 1º DAM </p>
+        </div>
+    </div>
+</footer>
 <!-- JS BOOTSTRAP -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>

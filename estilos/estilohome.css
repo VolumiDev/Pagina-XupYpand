@@ -3,15 +3,6 @@
     src: url(GODOFWAR.TTF);
 }
 
-body{
-    padding: 40px;
-    background-color: darkslategray;   
-    background-image: url(https://img.freepik.com/fotos-premium/fondo-mazmorra-pixel-art-juegos-8-bits_334978-2389.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 
 .banner{
     position: relative;

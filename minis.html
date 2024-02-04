@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="img/Xup Ypand.jpg">
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos/comun.css">
+    <link rel="stylesheet" href="estilos/estilonav.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <!-- AQUI EMPIEZA EL MENU DESPLEGABLE -->
+ <nav class="sticky-top navbar navbar-expand-md navbar-secondary bg-secondary" id="barranav">
+    <div class="container-fluid">       
+        <a href="#imgbanner" class="navbar-brand ">
+            <img id="logo" src="img/Xup Ypand.png" alt="logo">
+        </a>
+        <botton class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mi-menu">
+            <span class="navbar-toggler-icon"></span>
+        </botton>    
+        <div class="collapse navbar-collapse" id="mi-menu">        
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 " id="lista">    
+                <li class="nav-item"> <a href="home.html" class="nav-link">HOME</a></li>
+                <li class="nav-item">                        
+                    <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">IMAGENES</a>
+                    <ul class="dropdown-menu" id="sublista">
+                        <li><a href="personajes.html" class="dropdown-item">Personajes</a></li>
+                        <li><a href="jefes.html" class="dropdown-item">Jefes</a></li>
+                        <li><a href="" class="dropdown-item">Miniaturas</a></li>
+                    </ul>                            
+                </li>
+                <li class="nav-item"> <a href="" class="nav-link">CONTACTO</a></li>    
+            </ul>
+            <form id="buscar" class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-dark " type="submit">Search</button>
+              </form>  
+        </div>  
+               
+    </div>
+</nav>
+
+     <!-- POR AQUI TENEMOS EL FOOTER -->
+  <footer class="container text-center">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-3 redes">
+            <p class="titulo-footer">Redes:</p><hr>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FJavierdePradoA">     
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                </svg>
+                TWITTER
+            </a> 
+            <a href="https://ssooasir.blogspot.com/">
+                <img id="blooger" src="img/bloogel.jpg" alt="blogger">
+                BLOOGER
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 acerca">
+            <p class="titulo-footer">About Us:</p> <hr>
+            <p class="text-footer">
+                Somos un grupo de amigos que entrenamos juntos. Todos somos un poco frikis y nos encante el mundo de fantasia y el rol.
+                Un dia decidimos aventurarnos a jugar una partida y ahí fue donde todo comenzo.
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 derechos">
+            <p class="titulo-footer">Derechos:</p> <hr>
+            <span>&copy</span><span class="text-footer"> Diego Martín García</span>
+            <p class="text-footer">Lenguaje de marcas 1º DAM </p>
+        </div>
+    </div>
+</footer>
+<!-- JS BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</body>
+</html>
