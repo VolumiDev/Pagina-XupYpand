@@ -59,3 +59,14 @@ function cerrarVentana6() {
     // Cerrar la ventana emergente
 document.getElementById('ventanaEmergente6').style.display = 'none';
 }
+
+//FUNCIONES PARA EL DM
+function mostrarVentana7() {
+    // Mostrar la ventana emergente
+document.getElementById('ventanaEmergente7').style.display = 'block';
+}
+
+function cerrarVentana7() {
+    // Cerrar la ventana emergente
+document.getElementById('ventanaEmergente7').style.display = 'none';
+}
