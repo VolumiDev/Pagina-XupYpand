@@ -5,31 +5,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="img/Xup Ypand.jpg">
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Xup Ypan</title>
     <!-- css -->
-    <link rel="stylesheet" href="estilos/estilohome.css">
     <link rel="stylesheet" href="estilos/estilonav.css">
     <link rel="stylesheet" href="estilos/comun.css">
-    <!-- css para el carrousel -->
-    <link rel="stylesheet" href="estilos/stilocarrouselhome.css">
+    <link rel="stylesheet" href="estilos/contacto.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <!-- ESTA PARTE ES LA PARTE DEL TITULO -->
-    <div class="container">                 
-        <div class="row banner justify-content-md-center">        
-            <!-- <picture>
-                <source media="(min-width:576px)" srcset="img/Banner Xup Ypand  - maximo500px.png">
-                <img id="imgbanner" src="img/Banner Xup Ypand  - 992px.jpg" alt="">
-            </picture> -->
-                <img id="imgbanner" src="img/Banner Xup Ypand  - 992px.JPG" alt=""> 
-            <div class="textbanner">
-                <h1>XUP YPAND</h1>
-            </div>
-        </div>
-    </div>
     <!-- AQUI EMPIEZA EL MENU DESPLEGABLE -->
     <nav class="sticky-top navbar navbar-expand-md navbar-secondary bg-secondary" id="barranav">
         <div class="container-fluid">       
@@ -58,55 +42,53 @@
                 </form>  
             </div>                  
         </div>
-    </nav>    
-<!-- AQUI PONEMOS UN CAROUSEL SACADO DE CODEPEN Y MODIFICADO UN POCO LOS ESTILOS PARA QUE SE AJUSTEN A LO QUE NECESITABA -->
-    <div class="carousel">
-        <div class="scroller" data-speed="fast">
-            <ul class="tag-list scroller__inner">
-                <li><span class="inner-text">VIVE LA AVENTURA DE TU VIDA</span></li>
-                <li><span class="inner-text">JUEGA CON AMIGOS</span></li>
-                <li><span class="inner-text">EXPLORA TODO UN MUNDO DE FANTASIA</span></li>
-                <li><span class="inner-text">DERROTA TEMIBLES CRIATURAS</span></li>
-            </ul>
-        </div>        
-        <div class="scroller" data-direction="right" data-speed="slow">
-            <div class="scroller__inner">
-                <img src="img/corousel 1.jpeg" alt="gigante de fuego">
-                <img src="img/carousel2.jpeg" alt="grupo" />
-                <img src="img/carousel3.jpeg" alt="dragon" />
-                <img src="img/carousel4.jpeg" alt="mago" />
+    </nav>
+    <!-- AQUI TERMINA EL MENU DESPLEGABLE -->
+    <!-- CONTENIDO DE CONTACTO -->
+    <div class="container">
+        <div class="row contacto">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.3157910982295!2d-5.674728923520315!3d40.97456542149942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3f26240c3c5377%3A0xede80213f90f4a42!2sColegio%20Salesiano%20San%20Jos%C3%A9!5e0!3m2!1ses!2ses!4v1707122388731!5m2!1ses!2ses" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </div>        
-    </div>
-    <div class="container media">
-        <div class="row">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <div class="audio">
-                    <label for="">taberna</label>
-                    <audio id="taberna" src="audio/342_Tavern_Celebration.mp3" type="adio/mpeg" controls="">Taberna</audio>
-                </div>    
-                <div class="audio">
-                    <label for="">camino</label>
-                    <audio id="taberna" src="audio/199_Sun_Dappled_Trail.mp3" type="adio/mpeg" controls="">Taberna</audio>
-                </div>    
-                <div class="audio">
-                    <label for="">Combate</label>
-                    <audio id="taberna" src="audio/360_Pit_Fighter.mp3" type="adio/mpeg" controls="">Taberna</audio>
-                </div>    
-                <div class="audio">
-                    <label for="">Acertijo</label>
-                    <audio id="taberna" src="audio/349_Puzzle_Dungeon.mp3" type="adio/mpeg" controls="">Taberna</audio>
-                </div>    
-                <div class="audio">
-                    <label for="">Victoria</label>
-                    <audio id="taberna" src="audio/397_Homecoming.mp3" type="adio/mpeg" controls="">Taberna</audio>
-                </div>       
-            </div>
-            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-8 video-responsive">
-            <iframe src="https://www.youtube.com/embed/Q6nCZDpvA9k?si=a0H_AoV3wkFViQfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 formulario">
+                <form action="">
+                    <fieldset>
+                        <legend>Envianos tu consulta</legend>
+                        <div class="form-floating col-7 mb-3 input">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre" required>
+                            <label for="floatingInput">Nombre:</label>
+                        </div>
+                        <div class="form-floating col-7 mb-3 input">
+                            <input type="text" class="form-control" id="floatingInput1" placeholder="Apellidos" >
+                            <label for="floatingInput1">Apellidos:</label>
+                        </div>
+                        <div class="form-floating col-7 mb-3 input">
+                            <input type="email" class="form-control " id="floatingInput2" placeholder="nombre@ejemplo.com" required>
+                            <label for="floatingInput2">Email:</label>
+                        </div>
+                        <div class="form-floating col-7 mb-3 input">
+                            <input type="text" class="form-control " id="floatingInput3"  placeholder="Teléfono" pattern="[0-9]{8}[AZ]{1}">
+                            <label for="floatingInput3">DNI:</label>
+                        </div>
+                        <div class="form-floating col-7 mb-3 input">
+                            <input type="text" class="form-control " id="floatingInput4" placeholder="Teléfono"  pattern="(\+34|0034|34)?[ -]*(6|7|9)[ -]*([0-9][ -]*){8}">
+                            <label for="floatingInput4">Teléfono:</label>
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control comentario" id="floatingInput5" maxlength="200" style="height: 150px;" placeholder="Deja tu consulasdasdta"></textarea>
+                            <label for="floatingInput5">Dejanos tu consulta:</label>
+                        </div>
+                    </fieldset>
+                    <div class=" col-3 botones">
+                        <button class="btn btn-secondary" type="submit">Enviar</button>   
+                        <button class="btn btn-secondary" type="reset">Borrar</button>   
+                    </div>                 
+                </form>    
             </div>
         </div>
     </div>
+    <!-- FIN CONTENIDO CONTACTO -->
+
     <!-- POR AQUI TENEMOS EL FOOTER -->
     <footer class="container text-center">
         <div class="row">
@@ -139,8 +121,8 @@
     </footer>
     <!-- JS BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-<!-- js link -->
-    <script src="js/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>    
+    <!-- JS -->
+    <script src="js/contacto.js"></script>
 </body>
 </html>

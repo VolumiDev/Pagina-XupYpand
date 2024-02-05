@@ -1,0 +1,32 @@
+#map{
+    width: 100%;
+    border-radius: 50px;
+}
+.formulario{
+    padding: 30px;
+}
+.contacto{
+    margin: 50px 0px;
+}
+.linea{
+    display: flex;
+}
+.label{
+width: 30%;
+font-family: GOW;
+text-align: end;
+padding-right:20px ;
+}
+.input{
+    margin: auto;
+}
+
+.botones{
+    margin: 10px auto;
+}
+legend{
+    font-family: GOW;
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px black ;
+}
