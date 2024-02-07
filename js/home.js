@@ -1,22 +1,23 @@
+//Constante llamada Scroller que selecciona todos los elemetos que tengan la calse .scroller
 const scrollers = document.querySelectorAll(".scroller");
 
-// If a user hasn't opted in for recuded motion, then we add the animation
+//Verifica la preferencia del usuario para reducir las animaciones. Si el usuario no tiene la preferecncia 'reduce' se carga la funcion 'addAnimation'
 if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   addAnimation();
 }
-
+// Aqui definimos la funcion  addAnimation. Esta selecciona los elementos de la constant que implementamos arriba. 
 function addAnimation() {
   scrollers.forEach((scroller) => {
-    // add data-animated="true" to every `.scroller` on the page
+    // a cada elemento scroller les añade el atributo de animado.
     scroller.setAttribute("data-animated", true);
 
-    // Make an array from the elements within `.scroller-inner`
+    // Para cada scroller selecciona su hijo llamado .scroler__inner y los combierte en un array. para que podamos iterar sobre cada uno de ellos.
     const scrollerInner = scroller.querySelector(".scroller__inner");
     const scrollerContent = Array.from(scrollerInner.children);
 
-    // For each item in the array, clone it
-    // add aria-hidden to it
-    // add it into the `.scroller-inner`
+    // se clona cada array
+    // al clon se le añade el atributo aria-hidden=true para que no sea accesible por asistentes tecnologicos
+    // se añade el clon al .scroler__innert para crear el scroll infinito
     scrollerContent.forEach((item) => {
       const duplicatedItem = item.cloneNode(true);
       duplicatedItem.setAttribute("aria-hidden", true);

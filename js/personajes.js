@@ -1,9 +1,11 @@
+//SON LAS MISMAS FUNCIONES PARA CADA ELEMENTO, LO UNICO QUE VARIA ES EL ID QUE TIENE, PARA QUE AFECTE A LA VENTANA EMERGENTE QUE CORRESPONDE.
 //FUNCIONES PARA ALDURON
+//Aqui definimos la funcion que captura los elementos mediante las ID y le cambia el estilo del display a block para que se muestre
 function mostrarVentana() {
     // Mostrar la ventana emergente
     document.getElementById('ventanaEmergente').style.display = 'block';
 }
-
+//Aqui definimos la funcion que captura los elementos mediante la ID y le cambia el estilo del display a hidden de nuevo para que se oculte de nuevo.
 function cerrarVentana() {
     // Cerrar la ventana emergente
     document.getElementById('ventanaEmergente').style.display = 'none';
