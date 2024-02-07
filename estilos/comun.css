@@ -37,11 +37,11 @@ footer{
 }
  footer *{
     color: white;
- }
- .text-footer{
+}
+.text-footer{
     font-family: GOW;
- }
- div img{
+}
+div img{
     width: 80%;
     border-radius: 40px;
     margin: 0px 0px 0px 0px;
@@ -49,5 +49,5 @@ footer{
 }
 img:hover{
     transform:scale(1.025);
-    box-shadow: 10px 10px #3b3636cb;
+    box-shadow: 15px 15px 10px  red;
 }
