@@ -47,7 +47,7 @@ div img{
     margin: 0px 0px 0px 0px;
     
 }
-img:hover{
+.divjefe img:hover{
     transform:scale(1.025);
-    box-shadow: 15px 15px 10px  red;
+    box-shadow: 15px 15px 20px  rgb(225, 94, 94);
 }
